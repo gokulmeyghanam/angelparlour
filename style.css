@@ -189,6 +189,106 @@ h3{
 
 
 
+/*cards*/
+
+.cards{
+  text-align: center;
+  background-color: #815345;
+}
+.card{
+  color: #b4644b;
+  
+}
+.cards h1{
+  font-size: 36px;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 80px;
+  margin-bottom: 25px;
+}
+.row02 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 50px;
+}
+
+
+
+.column02 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 50px 20px;
+}
+
+.column02 img {
+  margin-top: 8px;
+  border-style: none;
+  border-radius: 10%;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.con{
+  background-color: #555;
+  size: 20rem;
+}
+
+.whatsapp_float{
+  size: 20rem;
+}
+
+.card:hover {
+  font-size: 150%;
+}
+
+@media screen and (max-width: 800px) {
+  .column02 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column02 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* for desktop */
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:80px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 80px;
+        right: 40px;
+        font-size: 22px;
+    }
+}
+
 
 
 .main {
